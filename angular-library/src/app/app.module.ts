@@ -7,6 +7,10 @@ import { CardComponent } from './card/card.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { BooksMenuComponent } from './books-menu/books-menu.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { SortFilterComponent } from './sort-filter/sort-filter.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeMenuComponent } from './home-menu/home-menu.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { BooksMenuComponent } from './books-menu/books-menu.component';
     CardComponent,
     NavBarComponent,
     HeroSectionComponent,
-    BooksMenuComponent
+    BooksMenuComponent,
+    SearchBarComponent,
+    SortFilterComponent,
+    FooterComponent,
+    HomeMenuComponent
   ],
   imports: [
     BrowserModule,

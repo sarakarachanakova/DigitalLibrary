@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BooksMenuComponent implements OnInit {
 
+  title = 'books';
   constructor() { }
 
   ngOnInit(): void {
